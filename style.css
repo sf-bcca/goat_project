@@ -1,0 +1,16 @@
+img {
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+em {
+    color: green;
+    font-style: normal;
+}
