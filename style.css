@@ -14,3 +14,17 @@ em {
     color: green;
     font-style: normal;
 }
+
+/* Styles applied when the viewport width is 768px or less */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Styles applied when the viewport width is 769px or more */
+@media (min-width: 769px) {
+  body {
+    font-size: 18px;
+  }
+}
